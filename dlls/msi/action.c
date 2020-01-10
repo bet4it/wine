@@ -1557,7 +1557,7 @@ static UINT execute_script( MSIPACKAGE *package, UINT script )
             {
                 ERR("Execution of script %i halted; action %s returned %u\n",
                     script, debugstr_w(package->script_actions[script][i]), rc);
-                break;
+                //break;
             }
         }
     }
